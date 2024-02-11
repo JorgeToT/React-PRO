@@ -1,4 +1,4 @@
-// import { LazyPage1, LazyPage2, LazyPage3 } from "../01-payload/pages";
+// import { LazyPage1, LazyPage2, LazyPage3 } from "../01-lazyload/pages";
 import { lazy, ComponentType } from "react";
 
 type JSXComponent = () => JSX.Element;
@@ -13,19 +13,19 @@ interface Route {
 const Lazy1 = lazy(
     () =>
         import(
-            /* webpackChunkName: "LazyPage1" */ "../01-payload/pages/LazyPage1"
+            /* webpackChunkName: "LazyPage1" */ "../01-lazyload/pages/LazyPage1"
         )
 );
 const Lazy2 = lazy(
     () =>
         import(
-            /* webpackChunkName: "LazyPage2" */ "../01-payload/pages/LazyPage2"
+            /* webpackChunkName: "LazyPage2" */ "../01-lazyload/pages/LazyPage2"
         )
 );
 const Lazy3 = lazy(
     () =>
         import(
-            /* webpackChunkName: "LazyPage3" */ "../01-payload/pages/LazyPage3"
+            /* webpackChunkName: "LazyPage3" */ "../01-lazyload/pages/LazyPage3"
         )
 );
 
