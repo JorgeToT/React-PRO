@@ -27,9 +27,7 @@ const ShoppingPage = () => {
                 <ProductCard product={product} className="bg-dark text-white">
                     <ProductCard.Image
                         className="custom-image"
-                        style={{
-                            boxShadow: "10px 10px 10px rgba(0,0,0,0.2)",
-                        }}
+                        style={{ boxShadow: "10px 10px 10px rgba(0,0,0,0.2)" }}
                     />
                     <ProductCard.Title
                         title="Mexican Coffee"
@@ -41,9 +39,7 @@ const ShoppingPage = () => {
                 <ProductCard product={product} className="bg-dark text-white">
                     <ProductImage
                         className="custom-image"
-                        style={{
-                            boxShadow: "10px 10px 10px rgba(0,0,0,0.2)",
-                        }}
+                        style={{ boxShadow: "10px 10px 10px rgba(0,0,0,0.2)" }}
                     />
                     <ProductTitle className="text-bold" />
                     <ProductButtons className="custom-buttons" />
@@ -51,25 +47,14 @@ const ShoppingPage = () => {
 
                 <ProductCard
                     product={product}
-                    style={{
-                        backgroundColor: "#70d1f8",
-                    }}
+                    style={{ backgroundColor: "#70d1f8" }}
                 >
                     <ProductImage
-                        style={{
-                            boxShadow: "10px 10px 10px rgba(0,0,0,0.2)",
-                        }}
+                        style={{ boxShadow: "10px 10px 10px rgba(0,0,0,0.2)" }}
                     />
-                    <ProductTitle
-                        style={{
-                            fontWeight: "bold",
-                        }}
-                    />
+                    <ProductTitle style={{ fontWeight: "bold" }} />
                     <ProductButtons
-                        style={{
-                            display: "flex",
-                            justifyContent: "end",
-                        }}
+                        style={{ display: "flex", justifyContent: "end" }}
                     />
                 </ProductCard>
             </div>
