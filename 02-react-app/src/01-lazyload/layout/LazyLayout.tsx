@@ -12,7 +12,7 @@ export const LazyLayout = () => {
                     <NavLink to="lazy2">Page 2</NavLink>
                 </li>
                 <li>
-                    <NavLink to="lazy3">Page 1</NavLink>
+                    <NavLink to="lazy3">Page 3</NavLink>
                 </li>
             </ul>
 
